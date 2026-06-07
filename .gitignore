@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tauri build output
+src-tauri/target/
+src-tauri/debug/
+src-tauri/release/
+
+# Tauri
+src-tauri/icons/          # 应用图标（可能含个人信息）
+*.msi                     # 安装包
+*.dmg                     # macOS 安装包
+*.deb                     # Debian 安装包
+*.AppImage                # Linux 安装包
+
+# 环境变量（未来 AI 模块的 API Key）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 测试
+coverage/
+.nyc_output/
+
+# 临时文件
+*.tmp
+*.temp
